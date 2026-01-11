@@ -1,4 +1,4 @@
-# GUI-based-Book-Store-System
+# OOP GUI-based-Book-Store-System
 
 ************1. Name:************ 
 
