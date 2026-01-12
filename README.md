@@ -33,22 +33,22 @@ The bookstore system follows a structured workflow to manage books, customers, a
 efficiently. 
 
 Adding and Removing Books: 
-● The store Owner can add new books to the inventory by entering the book's title and price in a 
+- The store Owner can add new books to the inventory by entering the book's title and price in a 
 new row within the book table. Once the details are entered, clicking the “Add” button updates 
 the database, making the book available for customers. 
-● If the Owner wishes to remove a book, they can simply select the corresponding row in the book 
+- If the Owner wishes to remove a book, they can simply select the corresponding row in the book 
 table and click the “Delete” button. This action permanently removes the book from the 
 inventory, ensuring that it is no longer available. 
 Managing Customers: 
-● To register a new customer, the Owner enters the customer's username and password into the 
+- To register a new customer, the Owner enters the customer's username and password into the 
 customer table. After entering these details, clicking the “Add” button successfully adds the 
 customer to the system. 
-● If an account needs to be removed, the Owner can locate the customer in the table, select their 
+- If an account needs to be removed, the Owner can locate the customer in the table, select their 
 row, and press the “Delete” button, effectively removing their profile and access to the bookstore 
 system. 
 
 Purchasing Books:
-● Customers can browse the available books and select the ones they wish to purchase by checking 
+- Customers can browse the available books and select the ones they wish to purchase by checking 
 the respective checkboxes next to each book title. After making their selection, they can choose 
 between two purchasing options: 
 1. Clicking the “Buy” button will proceed with the purchase without applying any reward 
@@ -57,11 +57,11 @@ points.
 accumulated points. For every 100 points they have, a $1 CAD deduction is applied to the 
 total price of the books. 
 Transaction and Reward System: 
-● After a successful purchase, the system calculates the total transaction cost and displays the final 
+- After a successful purchase, the system calculates the total transaction cost and displays the final 
 amount paid by the customer. 
-● If the purchase is made without redeeming points, the system awards new points to the customer. 
+- If the purchase is made without redeeming points, the system awards new points to the customer. 
 For every $1 CAD spent, the customer earns 10 points, encouraging future purchases. 
-● Customers are assigned a “Silver” or “Gold” status based on their accumulated points. This status 
+- Customers are assigned a “Silver” or “Gold” status based on their accumulated points. This status 
 may offer additional benefits or perks, rewarding frequent buyers for their loyalty. 
 
 
