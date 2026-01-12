@@ -1,25 +1,25 @@
 # OOP GUI-based-Book-Store-System
 
-************1. Name:************ 
+## Name: 
 
 BookStoreApplication  
 
 
-************2. Participating Actors:************
+## Participating Actors:
 
 Owner and Customer  
 
 
-************3. Entry Condition:************
+## Entry Condition:
 
 This use case begins when either the customer or the owner logs into the application. 
 
-************4. Exit Condition:************
+## Exit Condition:
 
 The use case ends when the customer or owner logs out after completing their session.
 
 
-************5. Exceptions:************
+## Exceptions:
 
 The system verifies the username and password entered. If the credentials are 
 incorrect, the application displays an "Incorrect" message and triggers an exception. Additionally, 
@@ -27,7 +27,7 @@ the system checks whether the customer has enough points to redeem rewards.
 
  
 
-************6. Flow of Events:************
+## Flow of Events:
    
 The bookstore system follows a structured workflow to manage books, customers, and transactions 
 efficiently. 
@@ -65,13 +65,13 @@ For every $1 CAD spent, the customer earns 10 points, encouraging future purchas
 may offer additional benefits or perks, rewarding frequent buyers for their loyalty. 
 
 
-************7. Special Requirements:************
+## Special Requirements:
 
 Each entry into the list of books is only for one copy, and once that copy 
 is sold, it must be deleted from the booktable list.  
 
  
-************Reasoning for Using the State Design Pattern:**************** 
+## Reasoning for Using the State Design Pattern: 
 
  When developing the bookstore application, the State Design Pattern was implemented. This 
 pattern is used when an object's behavior needs to change based on its current state. A key characteristic 
@@ -94,7 +94,7 @@ modifications in one class trigger corresponding changes in related classes, ens
 across the application. 
 
 
-**************Owner Use of the Application:**************
+## Owner Use of the Application:
 
  The bookstore owner(s) will be able to log into an admin account, which presents them with a 
 screen with three buttons. These buttons are Books, Customers, and Logout. These buttons bring the 
